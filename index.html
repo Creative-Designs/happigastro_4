@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="style.js"></script>
+</head>
+<body>
+<!-- floating button-->
+<div class="floating_div">
+	<div class="purple_background">
+	<!-- old button
+<div>
+	<button id="fa_btn">
+		<a href="#">
+			<i class="fa fa-facebook-square font_facebook" aria-hidden="true"></i>
+			<label>share</label>
+		</a>
+	</button>
+</div>
+		-->
+	
+		<div>
+			<button id="chat_btn">
+				<a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">
+					<img src="img/facebook_icon.png" class="img-responsive ">
+				</a>
+			</button>	
+		</div>
+			
+		<div>
+			<button id="call_btn">
+				<a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">
+					<img src="img/twitter.png" class="img-responsive">
+				</a>
+			</button>
+		</div>
+		<div>
+			<button id="call_btn">
+				<a href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">
+					<img src="img/email.png" class="img-responsive">
+				</a>
+			</button>
+		</div>
+			
+	</div>
+</div>
+<!-- scroll btn-->
+<div>
+	<button id="top_btn">
+		<i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i>
+	</button>
+</div>
+	
+<!-- Image and text -->
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded blue_logo_part ">
+	<a class="navbar-brand" href="#"><img src="img/H white (1).png" class="img-responsive logo_img">
+		<label class="logo_text">HappiDoc</label>
+	</a>
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+  	<div class="collapse navbar-collapse elarning_style " id="navbarNav">
+    	<ul class="navbar-nav ml-auto">
+			<li class="nav-item ">
+				<a class="nav-link" href="https://happidoc.com/newsandinsights">NEWS & INSIGHTS<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://happidoc.com/kolspeak">KOL SPEAK</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">ENGAGE & CONTRIBUTE</a>
+			</li>  
+			<li class="nav-item">
+				<a class="nav-link" href="https://happidoc.com/#">ACADEMY</a>
+			</li> 
+			<li class="nav-item">
+				<a class="nav-link" href="https://happidoc.com/signup">SIGN UP</a>
+			</li>	 
+			<li class="nav-item">
+				<a class="nav-link" href="https://happidoc.com/login">LOGIN</a>
+			</li>	  
+    	</ul>
+  	</div>
+	<div class="float-sm-right"></div>
+</nav>
+	
+<!-- banner -->
+<div class="">
+		<a href="#first_video"><div class="banner_part"></div></a>
+</div>
+<!-- main part -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-1"></div>
+			<!-- main part -->
+			<div class="col-sm-10">
+	<!--welcome part-->
+
+	<div class="row">
+		<div class="">
+			<h2 class="welcome_head ">
+			Exclusive guide to multi-disciplinary approach to GI diseases</h2>
+		</div>
+		<div class="col-sm-6">
+					
+						<p class="welcome_para ">HappiGastro Mini Webinar series is designed to help busy clinical practitioners be up to date on latest screening, diagnosis, and multi-disciplinary care approach to Hepatopancreatobiliary diseases.</p>
+						<p class="welcome_para">The series is a set of short 5 – 7 min. videos, suited for mobile viewing, and is focused on strengthening a general practitioner’s knowledge on the early detection and management of Gastrointestinal diseases.</p>
+						<p class="welcome_para ">This HappiDoc series has been made possible due to the support of Dr Govind Nandakumar and the clinical team at Columbia Asia Hospitals Bangalore.</p>
+						
+				</div><!-- col 7 end-->
+				<div class="col-sm-6">
+	<!-- box part start-->
+		<div class="row ">
+			<div class="col-sm-6  padding_0">
+				<a href="#1st_video">
+					<button class="btn btn-info colon_btn text-left">
+							1.Pancreatitis
+					</button></a>
+			</div>
+			<!-- col sm-6-->
+			<div class="col-sm-6 padding_0">
+				<a href="#2nd_video">
+					<button class="btn btn-info colon_btn text-left">
+						2.Gallbladder Cancer
+					</button></a>
+			</div><!-- col-sm-6-->
+		</div>
+	<!-- box part 1 end-->
+	
+		<!-- box part start-->
+		<div class="row">
+			<div class="col-sm-6 padding_0">
+				<a href="#third_video">
+					<button class="btn btn-info Rectal_btn text-left">
+							3.Gallstones
+					</button></a>
+			</div>
+			<!-- col sm-6-->
+			<div class="col-sm-6 padding_0">
+				<a href="#four_video">
+					<button class="btn btn-info Rectal_btn text-left">
+						4.Pancreatic Cancer
+					</button></a>
+			</div><!-- col-sm-6-->
+		</div>
+	<!-- box part 2 end-->
+	<!-- box part3 start-->
+		<div class="row">
+			<div class="col-sm-6 padding_0">
+				<a href="#five_video">
+					<button class="btn btn-info Stoma_btn text-left">
+							5.Cirrhosis of Liver
+					</button></a>
+			</div>
+			<!-- col sm-6-->
+			<div class="col-sm-6 padding_0">
+				<a href="#six_video">
+					<button class="btn btn-info Ulcerative_btn text-left">
+						6.Interventional Radiology 
+					</button></a>
+			</div><!-- col-sm-6-->
+		</div>
+	<!-- box part 3 end-->
+	
+	<!-- box part5 start-->
+
+	
+					
+</div><!-- sm 5-->
+
+	</div>
+				<!-- welome part end-->
+	<!-- watch old part-->
+				<div class="row old_gastropart">
+					<div class="col-sm-10 old_gastropart_grey">
+						<a href="https://www.happidoc.com/happigastro/" target="_blank">
+						<p class="click_part_text">Click to watch the first part of the GI disease mini webinar series</p></a>	
+					</div>
+					<div class="col-sm-2 ">
+						<a href="https://www.happidoc.com/happigastro/" class=" past_btn  "><img src="img/button_1.gif" class="past_img"></a>
+					</div>
+				</div>
+	<!-- old button part end-->
+	<!-- webinar part-->
+		<div class="row">
+	
+		<div class="card col-sm-4 border_box" id="first_video">	
+			<h4 class="card-title mycard_style1">Pancreatitis Overview by <br>Dr. Govind Nandakumar</h4>
+			<a href="#"><img class="card-img-top img-fluid img_style" src="img/design_1.jpg" alt="Card image cap"></a>
+		  
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 5:30 minutes</p>
+			<h4 class="card-title mycard_style">Saturday 6th Jan 2018 at 2:00 PM </h4>
+			<p class="card-text mycard_text flip">The common causes of pancreatitis, types of pancreatitis – acute and chronic, their treatment options are discussed by 
+			<span class="dot_hide"> ...</span>
+				<span class="panel">Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore. A multi-disciplinary team involving radiologists, endoscopists, surgeons help a patient with pancreatitis lead a better life</span>
+			</p>
+			
+			
+			<a class="btn btn-warning watch_now" href="#">Register now</a>
+			
+		  </div>
+		</div>
+	<div class="card col-sm-4 border_box">
+		<h4 class="card-title mycard_style1">Gallbladder Cancer Overview By <br>Dr. Govind Nandakumar</h4>
+		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_2.jpg" alt="Card image cap"></a>
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 4:02 minutes</p>
+			<h4 class="card-title mycard_style">Sunday 7th Jan 2018 at 2:00 PM</h4>
+			<p  class="card-text mycard_text flip">This video by Dr. Govind Nandakumar Head GI Surgery at Columbia Asia Hospital, Bangalore discusses 
+			<span class="dot_hide"> ...</span>
+			<span class="panel">gall bladder cancer its diagnosis, staging, and resection for its management.</span></p>
+			
+				<a class="btn btn-info watch_now" href="#">Register now</a>
+		  </div>
+		</div>
+		<div class="card col-sm-4 border_box">
+		<h4 class="card-title mycard_style1">Gallstones : Overview by <br> Dr. Natrajan</h4>
+		<a href="#"> <img class="card-img-top img-fluid img_style" src="img/design_3.jpg" alt="Card image cap"></a>
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 2:45 minutes</p>
+			<h4 class="card-title mycard_style">Saturday 13th Jan 2018 at 2:00 PM</h4>
+			<div class="">
+				<p class="card-text mycard_text flip">There is significant rise in the number of cases for Gall stones and related complications. Dr. Natarajan, Senior consultant 
+				<span class="dot_hide"> ...</span>
+				<span class="panel">from Columbia Asia Referral Hospital, Bangalore, explains the causes for Gall stones, the diagnostic methods, and the surgical procedure – Cholecystectomy – used to treat gall stones.</span></p>
+			</div>
+		
+			
+				<a class="btn btn-info watch_now" href="#">Register now</a>
+			
+		  </div>
+		</div>
+	</div>
+	
+	<!--row start-->
+<div class="row">
+	<div class="card col-sm-4 border_box">	
+		<h4 class="card-title mycard_style1">Pancreatic Cancer Overview by <br>Dr. Govind Nandakumar</h4>
+		
+		  <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_4.jpg" alt="Card image cap"></a>
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 8:34 minutes</p>
+			<h4 class="card-title mycard_style">Sunday 14th Jan 2018 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">Dr. Govind Nandakumar explains the diagnosis and the extent of disease work up required for treatment of pancreatic
+ <span class="dot_hide"> ...</span>
+<span class="panel"> cancer. He also underlines the need for a consensus decision of a radiologist, pathologist, and gastroenterologist for quality care of patients with pancreatic cancer.</span></p>
+		
+			
+			<a class="btn btn-info watch_now" href="#">Register now</a>
+			 
+			
+			
+		  </div>
+		</div>
+		<div class="card col-sm-4 border_box">
+		<h4 class="card-title mycard_style1">Cirrhosis of Liver : A Discussion<br>Dr. Vidyasagar R and Dr. Prashant</h4>
+		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_5.jpg" alt="Card image cap"></a>
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 8:14 minutes</p>
+			<h4 class="card-title mycard_style">Saturday 20th Jan 2018 at 2:00 PM</h4>
+			<p class="card-text mycard_text flip">One of the most prevalent liver disorders - Liver cirrhosis, is discussed in detail by Dr. Vidyasagar and 
+
+			<span class="dot_hide"> ...</span>
+			<span class="panel">Dr. Prashanth, Consultant Gastroenterologists, Columbia Asia Hospital, Bangalore. The discussion covers causes and symptoms and management of cirrhosis of liver, the screening of patients for risk stratification in case of liver transplant.</span></p>
+			
+			<a class="btn btn-info watch_now" href="#">Register now</a>
+		  </div>
+		</div>
+		<div class="card col-sm-4 border_box">
+		<h4 class="card-title mycard_style1">Role of Interventional Radiology in HCC by Dr. Rajesh Helavar</h4>
+		 <a href="#"><img class="card-img-top img-fluid img_style" src="img/design_6.jpg" alt="Card image cap"></a>
+		  <div class="card-block">
+			<p class="card-text video_text">Video duration : 6:59 minutes</p>
+			<h4 class="card-title mycard_style">Sunday 21st Jan 2018 at 2:00 PM </h4>
+			<div class="">
+				<p class="card-text mycard_text flip">Dr. Rajesh V Helavar, talks about the role of interventional radiology in hepatocellular carcinoma. Beginning with 
+
+				<span class="dot_hide"> ...</span>
+				<span class="panel">causes, treatment options, need for imaging, serological tests, BCLC staging in HCC; indications, contraindications & complications of TACE, Radio frequency ablation are discussed.</span></p>
+			</div>
+		
+			<div class="watch_btn">
+				<a class="btn btn-info watch_now" href="#">Register now</a>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<!-- webiner part -->
+	
+		
+	
+	<!-- watch old part-->
+	<div class="row old_gastropart">
+		<div class="col-sm-10 old_gastropart_grey">
+		
+			<p class="click_part_text">Click to watch the first part of the GI disease mini webinar</p>
+			
+		
+		</div>
+		<div class="col-sm-2">
+			<a href="https://www.happidoc.com/happigastro/" class=" past_btn "><img src="img/button_1.gif" class="past_img"></a>
+		</div>
+	</div>
+
+		</div><!-- col 10 part -->
+		
+		<div class="col-sm-1"></div>
+	</div>
+</div><!--container-->
+<div class="footer_part">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-sm-5">
+<h3 class="happidoc_head"><a href="http://www.happidoc-surveys.com/">HappiDoc</a></h3>
+			<p class="find_para">FIND US ON</p>
+			<a href="https://www.facebook.com/groups/medclick/?ref=group_header"><i class="fa fa-facebook-official social_icon" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/happidoc"><i class="fa fa-twitter social_icon" aria-hidden="true"></i></a>
+			<a href=" https://in.linkedin.com/company/happidoc"><i class="fa fa-linkedin social_icon" aria-hidden="true"></i></a>
+			<a href=" https://www.youtube.com/channel/UC0i8vakWI0YEwpqqYpYS7sA/videos"><i class="fa fa-youtube-play social_icon" aria-hidden="true"></i></a>
+			
+			</div>
+			<div class="col-sm-2 ">
+			<h4 class="about_head">About</h4>
+			<ul>
+				<li  class="footer_link"><a href="http://www.happidoc-surveys.com/">About HappiDoc</a></li>
+				<li class="footer_link"><a href="#">Contact Us</a></li>
+				<li class="footer_link"><a href="#">Privacy Policy</a></li>
+				<li class="footer_link"><a href="#">Terms of Use </a></li>
+			</ul>
+			</div>
+			
+			<div class="col-sm-2">
+			
+			<h4 class="about_head">Others</h4>
+			<ul>
+			<li  class="footer_link" ><a href="http://www.happidoc-surveys.com/">Medical Community</a></li>
+				<li  class="footer_link" ><a href="https://www.research.net/r/HCPlandingpage?ID=HDSYmCX">Join now</a></li>
+				<li class="footer_link"><a href="https://www.research.net/r/HCPlandingpage?ID=HDSYmCX">Email Newsletters</a></li>
+			
+			</ul>
+			</div>
+			<div class="col-xs-12 col-sm-2">
+			<h4 class="about_head1" style="">Download HappiDoc app for exclusivecontent and event invites</h4>
+			<div class="apple_part" >
+			
+			<div class="play">
+				<a href="https://play.google.com/store/apps/details?id=com.ib.happidoc&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+			<img src="img/play-store.png" class="img-responsive apple_icon" alt="google play store" ></a>
+			</div>
+			<div class="play">
+				<a href="https://itunes.apple.com/in/app/happidoc/id1114811557?mt=8">
+				<img src="img/apple.png" class="img-responsive apple_icon" alt="apple store"></a>
+			</div>
+			
+		
+			</div>
+			
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		
+	</div>
+</div>
+<!-- small footer-->
+<div class="footer_part_two">
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6"><p class="idea_para">Idea Bubbles © 2017 | All Rights Reserved</p></div>
+		<div class="col-sm-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="register" class="select_seat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HappiGastro Mini-webinar Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+	 <div class="modal-body">
+		<form method="post" id="form_save_seat" role="form">
+			<div class="row">
+			
+			<div class="col-sm-12">
+	<!--facebook icon desktop-->
+
+<div class="facebook_desktop">
+	<a><button class="btn btn-info facebook_btn">
+	<i class="fa fa-facebook facebook_icon" aria-hidden="true"></i>Login with Facebook</button></a>
+	<a><button class="btn btn-danger google_btn">
+	<i class="fa fa-google google_icon" aria-hidden="true"></i>
+	Sign in with Google</button></a>
+ </div>
+ </div>
+ 
+
+ <!--facebook icon desktop-->
+ <div class="facebook_mob">
+	<a><button class="btn btn-info facebook_btn">
+	<i class="fa fa-facebook facebook_icon" aria-hidden="true"></i> Facebook</button></a>
+	<a><button class="btn btn-danger google_btn">
+	<i class="fa fa-google google_icon" aria-hidden="true"></i>
+	Google</button></a>
+ </div>
+			</div>
+		
+			 <div class="form-group row">
+				<div class="col-sm-3">Name</div>
+				<div class="col-sm-9"><input required  type="text" class="u_name form-control"></div>
+			</div> 
+			<div class="form-group row">
+				<div class="col-sm-3">Speciality</div>
+				<div class="col-sm-9"><input required  type="text" class="u_speciality form-control"></div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">City</div>
+				<div class="col-sm-9"><input required  type="text" class="u_city form-control"></div>
+			</div>
+			<div class="form-group row">
+				<div class="col-sm-3">Email</div>
+				<div class="col-sm-9"><input required  type="email" class="u_mail form-control"></div>
+			</div>
+			<div class="title_val"  data-gettitle=""></div>
+			 <div class="modal-footer">				
+				<button type="submit" class="btn btn-primary mr-auto ml-auto save_seat">Save your seat</button>
+			 </div>
+		</form>
+
+	</div><!-- modal body-->
+
+    </div>
+  </div>
+</div>
+	
+<div class="container footer_btn_part">
+	<div class="row ">
+	
+	<div class="col-4 ">	
+		<a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">
+		<button class="btn btn-info footer_btn">
+			<i class="fa fa-facebook-square facebook_footer"  aria-hidden="true"></i><span class="facebook_footer_text">SHARE</span>
+			</button>
+		</a>		
+	</div>
+		<div class="col-4 ">
+		<a href="https://api.addthis.com/oexchange/0.8/forward/whatsapp/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">		
+				<button class="btn btn-info footer_btn">
+					<i class="fa fa-whatsapp send_footer" aria-hidden="true"></i><span class="send_footer_text">SEND</span>
+				</button>
+			</a>	
+		</div>
+<div class="col-4 ">
+	<a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.happidoc.com%2FHappiGastro%2F&pubid=ra-42fed1e187bae420&title=HappiGastro%20Mini-webinar%20Series%20on%20Colorectal%20diseases&ct=1" target="_blank">		
+	<button class="btn btn-info footer_btn">
+	<i class="fa fa-twitter tweet_footer" aria-hidden="true"></i><span class="tweet_footer_text">TWEET</span>
+	</button>
+	</a>	
+</div>
+	</div>
+
+</div>
+
+
+
+</body>
+	
+</html>
+
+
+
+
+
+
+
+
